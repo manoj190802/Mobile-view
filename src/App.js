@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Navbar from './component/Customer Management';
+import Navbar from './component/Home/Navbar';
+
 
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
 // import Home from './component/Home/Home'
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       {/* <BrowserRouter> */}
-       <Navbar/>
+      <Navbar/>
        {/* <Routes>
         <Route  path="/" element={<Dashboard/>}/>
         <Route path="/about" element={<About Us/>}/>
